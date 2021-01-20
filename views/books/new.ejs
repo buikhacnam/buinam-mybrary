@@ -1,0 +1,8 @@
+<h2>New Book</h2>
+<form method='POST' action='/books' enctype='multipart/form-data'>
+    <%- include('_form_fields') %>
+    <a href='/books'>Cancel</a>
+    <button type='submit'>Create</button>
+</form>
+
+<!-- notice we have enctype='multipart/form-data' for post multi type of data -->
